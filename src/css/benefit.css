@@ -1,0 +1,195 @@
+/*公共margin左右24px*/
+.benefit-margin{
+	    margin: 0 19px 0 24px;
+}
+/*公共内容文字样式*/
+.benefit-word-com{
+	font-family: PingFangSC-Regular;
+	font-size: 15px;
+	color: #595959;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+/*公共内容title文字样式*/
+.bennefit-title-word{
+	font-family: PingFangSC-Medium;
+	font-size: 17px;
+	color: #595959;
+	letter-spacing: 0;
+	line-height: 30px;
+	font-weight: bold;
+}
+/*公共蓝色标题文字样式*/
+.benefit-blue-title{
+	font-family: PingFangSC-Semibold;
+	font-size: 20px;
+	color: #2A88F9;
+	letter-spacing: 0;
+}
+/*公共蓝色箭头处文字样式*/
+.benefit-arror-word{
+	font-family: PingFangSC-Medium;
+	font-size: 16px;
+	color: #2A88F9;
+	letter-spacing: 0;
+	line-height: 30px;
+}
+
+/* 高清显示屏(设备像素比例大于等于2)使用2倍图  */
+@media only screen and (-webkit-min-device-pixel-ratio:2){
+    /*公共box*/
+    .wx-step-tit-name{
+        height: 36px;
+        background: url("../images/k_left@2x.png") repeat-x center ;
+    }
+    .wx-step-tit-bot{
+    	height: 36px;
+    	width: 18px;
+        background: url("../images/k_right@2x.png") no-repeat center ;
+    }
+
+
+}
+/* 高清显示屏(设备像素比例大于等于3)使用3倍图  */
+@media only screen and (-webkit-min-device-pixel-ratio:3){
+    .wx-step-title{
+        height: 36px;
+        background: url("../images/k_left@3x.png") repeat-x center ;
+    }
+    .wx-step-tit-bot{
+    	height: 36px;
+    	width: 18px;
+        background: url("../images/k_right@2x.png") no-repeat center ;
+    }
+
+
+}
+
+
+.benefit-parent{
+	padding-bottom: 90px;
+	position: relative;
+}
+/*banner*/
+.benefit-banner{
+	padding-bottom: 50px;
+	background: linear-gradient(#cdeafb, #f2f9fe);
+	background: -webkit-linear-gradient(#cdeafb, #f2f9fe);
+	background: -moz-linear-gradient(#cdeafb, #f2f9fe);
+	background: -ms-linear-gradient(#cdeafb, #f2f9fe);
+	background: -o-linear-gradient(#cdeafb, #f2f9fe);
+}
+.benefit-banner,.benefit-banner > img{
+	width: 100%
+}
+
+/*列表问题*/
+.benefit-step-list{
+	margin-bottom: 50px;
+}
+.benefit-step-list .benefit-blue-title{
+	margin-top: -10px;
+	font-weight: bold;
+	margin-bottom: 13px;
+}
+/*角色选择*/
+.benefit-choose-role{
+	text-align: center;
+	overflow: hidden;
+	margin: 0 24px 0;
+}
+.benefit-role-list{
+	float: left;
+	width: 50%;
+	height: 44px;
+	line-height: 44px;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #9A9A9A;
+	letter-spacing: 0;
+	text-align: center;
+}
+.benefit-role-list-choose{
+	color: #2A88F9;
+	border-bottom: 3px solid #2a88f9;
+}
+/**/
+.wx-step-tit-name{
+	padding: 0 15px 0 24px;
+}
+.wx-step-tit-name,.wx-step-tit-bot{
+	/*display: inline-block;*/
+	float: left;
+	background-size: 100% 100%;
+	line-height: 36px;
+}
+/*承接人板块*/
+.wx-step-title{
+	overflow: hidden;
+	margin-top: 30px;
+}
+.wx-step-cont{
+	text-align: center;
+	margin-top: 20px;
+}
+.wx-step-tip{
+	margin: 16px 0 20px;
+}
+/*注意事项*/
+
+.wx-step-attention{
+	font-family: PingFangSC-Regular;
+	font-size: 13px;
+	color: #F85C70;
+	letter-spacing: 0;
+	text-align: left;
+	margin-bottom: 10px;
+}
+/*问题中心*/
+.ques-title{
+	margin:12px 0 8px;
+}
+.ques-cont{
+	padding-left: 24px;
+}
+
+/*公共icon位置*/
+.benefit-icon{
+	position: absolute;
+	z-index: -1;
+}
+/*step-container-left-icon*/
+.step-container-left-icon{
+	left: 0;
+	bottom: 0;
+}
+.step-container-right-icon{
+	right: 0;
+	bottom: 0;
+}
+.step-container-icon-04{
+	right: 0;
+	bottom: 908px;
+}
+.step-container-icon-03{
+	left: 0;
+	top: 1970px;
+}
+.step-container-icon-02{
+	right: 0;
+	top: 1280px;
+}
+.step-container-icon-01{
+	left: 0;
+	top: 490px;
+}
+/*公共隐藏*/
+.banefit-hide{
+	display: none
+}
+/*图片样式*/
+.benefit-img{
+	position: relative;
+	width: 20px;
+	top: -2px;
+}
