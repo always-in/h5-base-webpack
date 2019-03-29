@@ -5,8 +5,8 @@
 
 用到了以下几个基本插件
 
-[● html-webpack-plugin ](https://www.npmjs.com/package/html-webpack-plugin)
+  [● html-webpack-plugin ](https://www.npmjs.com/package/html-webpack-plugin)
 
-[● extract-text-webpack-plugin](https://www.npmjs.com/package/extract-text-webpack-plugin)
+  [● extract-text-webpack-plugin](https://www.npmjs.com/package/extract-text-webpack-plugin)
 
-[● transfer-webpack-plugin](https://www.npmjs.com/package/transfer-webpack-plugin)
+  [● transfer-webpack-plugin](https://www.npmjs.com/package/transfer-webpack-plugin)
